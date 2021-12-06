@@ -20,7 +20,7 @@ const chartConfig = {
     options: {}
 };
 
-fetch("./data/top10language.json")
+fetch("./top10language.json")
     .then(datasets => datasets.json())
     .then(datasets => {
         datasets = datasets.filter(
